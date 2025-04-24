@@ -1,3 +1,4 @@
 function app() {
-    console.log('hello');
+    const today = new Date();
+  console.log(today.toDateString());
 }
